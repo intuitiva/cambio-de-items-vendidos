@@ -9,7 +9,6 @@ import TurnosVendidos from '../components/TurnosVendidos';
 import TurnosNoVendidos from '../components/TurnosNoVendidos';
 import { navigate } from 'gatsby';
 import Acciones from '../components/Acciones';
-import ErrorBoundary from '../components/ErrorBoundury';
 import { Container } from 'semantic-ui-react';
 
 export default class App extends Component {
@@ -116,22 +115,20 @@ export default class App extends Component {
 		return (
 			<Layout>
 				<RutaPrivada>
-					<ErrorBoundary>
-						<Container>
-							<Steps {...stepsProps} />
-						</Container>
-						<div className="pt-6">
-							{step === 1 ? (
-								<React.Fragment>{this.tiposDeTurno()}</React.Fragment>
-							) : step === 2 ? (
-								<React.Fragment>{this.turnosVendidos()}</React.Fragment>
-							) : step === 3 ? (
-								<React.Fragment>{this.turnosNoVendidos()}</React.Fragment>
-							) : step === 4 ? (
-								<React.Fragment>{this.acciones()}</React.Fragment>
-							) : null}
-						</div>
-					</ErrorBoundary>
+					<Container>
+						<Steps {...stepsProps} />
+					</Container>
+					<div className="pt-6">
+						{step === 1 ? (
+							<React.Fragment>{this.tiposDeTurno()}</React.Fragment>
+						) : step === 2 ? (
+							<React.Fragment>{this.turnosVendidos()}</React.Fragment>
+						) : step === 3 ? (
+							<React.Fragment>{this.turnosNoVendidos()}</React.Fragment>
+						) : step === 4 ? (
+							<React.Fragment>{this.acciones()}</React.Fragment>
+						) : null}
+					</div>
 				</RutaPrivada>
 			</Layout>
 		);
