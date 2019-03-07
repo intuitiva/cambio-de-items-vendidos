@@ -5,7 +5,7 @@
 
 [build.environment]
   # Dominio del sitio de producción (Frontend)
-	GATSBY_NFUNC_URL_PREFIX= 'https://nombre_del_sitio.netlify.com'
+	#GATSBY_NFUNC_URL_PREFIX= 'https://nombre_del_sitio.netlify.com'
 	
 	# Locations de las netlify functions (Backend) 
 	# Son los mismos nombres de los archivos que hay en la carpeta /src/service
@@ -20,7 +20,7 @@
 	GATSBY_URL_CINCO= '/.netlify/functions/final5'
 
 	# Dominio del sitio de las APIs (Backend)
-	GATSBY_ZAURU_PREFIX='https://dominiobackend.com'
+	#GATSBY_ZAURU_PREFIX='https://dominiobackend.com'
 
 	# Locations de los enpoints GET de información a mostrar en los pasos de la app
   GATSBY_ENDPOINT_TIPOS_DE_TURNO='/settings/agencies.json'
@@ -46,8 +46,8 @@
 	GATSBY_ENDPOINT_CINCO_2='.json'
 
 	# Email y token de autenticación para utilizar las APIs 
-  GATSBY_EMAIL='email@email.com'
-  GATSBY_TOKEN='TOKENTOKENTOKENTOKENTOKEN'
+  #GATSBY_EMAIL='email@email.com'
+  #GATSBY_TOKEN='TOKENTOKENTOKENTOKENTOKEN'
 
 	# Variable de entorno para ver los botones de debug. 
 	GATSBY_MODO='PROD' # PROD / DEBUG 
