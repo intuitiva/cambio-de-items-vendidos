@@ -1,10 +1,8 @@
-## Aplicación de movimiento de turnos 1.0
+## Aplicación de cambios de items vendidos
 
-Este aplicativo utiliza Gatsby, Netlify Functions, y APIs de backend para mover turnos.
+Esta web app utiliza Gatsby, Netlify Functions, y APIs de backend para mover turnos.
 
-Este proyecto utiliza Node 11.9.0 (estipulado en el .nvmrc)
-
-### 1. Instalar dependencias
+### 1. Instalar dependencias (para localhost)
 
 Si usas npm
 
@@ -20,9 +18,16 @@ $ yarn install
 
 ### 2. Actualiza las variables de entorno en el netlify.toml
 
+Viene vacío el toml pero utilizar una versión no subida a github
 
-### 3. Conectar tu repo con Netlify, puedes ver un tutorial [Aqui](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/)
+## Deployment en Netlify
 
+1. Conectar github con Netlify, y publicar
+2. Habilitar dominio
+3. Habilitar HTTPS
+4. Agregar las variables de entorno y sus valores
+5. Habilitar Netlify Identity y configurarlo para que sea invite only
+6. Invitar a alguien
 
 Licencia MIT
 
