@@ -26,10 +26,10 @@ Viene vacío el toml pero utilizar una versión no subida a github
 2. Habilitar dominio
 3. Habilitar HTTPS
 4. Agregar estas 4 variables de entorno y sus valores
-    1 GATSBY_NFUNC_URL_PREFIX
-    1 GATSBY_ZAURU_PREFIX
-    1 GATSBY_EMAIL
-    1 GATSBY_TOKEN
+    * GATSBY_NFUNC_URL_PREFIX
+    * GATSBY_ZAURU_PREFIX
+    * GATSBY_EMAIL
+    * GATSBY_TOKEN
 5. Habilitar Netlify Identity y configurarlo para que sea invite only
 6. Invitar a alguien
 
