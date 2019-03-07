@@ -25,7 +25,11 @@ Viene vacío el toml pero utilizar una versión no subida a github
 1. Conectar github con Netlify, y publicar
 2. Habilitar dominio
 3. Habilitar HTTPS
-4. Agregar las variables de entorno y sus valores
+4. Agregar estas 4 variables de entorno y sus valores
+    GATSBY_NFUNC_URL_PREFIX
+    GATSBY_ZAURU_PREFIX
+    GATSBY_EMAIL
+    GATSBY_TOKEN
 5. Habilitar Netlify Identity y configurarlo para que sea invite only
 6. Invitar a alguien
 

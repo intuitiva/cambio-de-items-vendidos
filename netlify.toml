@@ -23,27 +23,27 @@
 	GATSBY_ZAURU_PREFIX='https://dominiobackend.com'
 
 	# Locations de los enpoints GET de información a mostrar en los pasos de la app
-  GATSBY_ENDPOINT_TIPOS_DE_TURNO=''
-	GATSBY_ENDPOINT_TURNOS_NO_VENDIDOS=''
-	GATSBY_ENDPOINT_TURNOS_VENDIDOS=''
+  GATSBY_ENDPOINT_TIPOS_DE_TURNO='/settings/agencies.json'
+	GATSBY_ENDPOINT_TURNOS_NO_VENDIDOS='/inventories/stocks.json?warehouse='
+	GATSBY_ENDPOINT_TURNOS_VENDIDOS='/sales/reports/sold_active_items_with_clients.json?point_of_sale_id='
 
 
 	# Locations para la reasignación de turnos
-	GATSBY_ENDPOINT_UNO=''
+	GATSBY_ENDPOINT_UNO='/inventories/bookings.json'
 
 	# 1 y 2 construyen https://dominiobackend.com/inventories/bookings/****ID****/deliver.json
-	GATSBY_ENDPOINT_DOS_1=''
-	GATSBY_ENDPOINT_DOS_2=''
+	GATSBY_ENDPOINT_DOS_1='/inventories/bookings/'
+	GATSBY_ENDPOINT_DOS_2='/deliver.json'
 
-	GATSBY_ENDPOINT_TRES=''
+	GATSBY_ENDPOINT_TRES='/inventories/bookings.json'
 
 	# 1 y 2 construyen https://dominiobackend.com/inventories/bookings/****ID****/deliver.json
-	GATSBY_ENDPOINT_CUATRO_1=''
-	GATSBY_ENDPOINT_CUATRO_2=''
+	GATSBY_ENDPOINT_CUATRO_1='/inventories/bookings/'
+	GATSBY_ENDPOINT_CUATRO_2='/deliver.json'
 
 	# 1 y 2 construyen https://dominiobackend.com/sales/unpaid_invoices/****ID****.json
-	GATSBY_ENDPOINT_CINCO_1=''
-	GATSBY_ENDPOINT_CINCO_2=''
+	GATSBY_ENDPOINT_CINCO_1='/sales/unpaid_invoices/'
+	GATSBY_ENDPOINT_CINCO_2='.json'
 
 	# Email y token de autenticación para utilizar las APIs 
   GATSBY_EMAIL='email@email.com'
