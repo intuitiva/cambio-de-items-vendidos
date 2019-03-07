@@ -2,12 +2,12 @@ let activeEnv = process.env.ACTIVE_ENV || process.env.NODE_ENV || 'development';
 
 module.exports = {
 	siteMetadata: {
-		title: `Gatsby turnos`,
-		description: `Gatsby turnos`,
+		title: `Mover turnos`,
+		description: `Mover turnos vendidos hacia turnos disponibles`,
 		author: `@luispagarcia`,
 		titulos:{
-			landing: "Aplicación para reasignar/mover turnos",
-			app: "Aplicación para reasignar/mover turnos"
+			landing: "Aplicación para reasignar turnos vendidos",
+			app: "Aplicación para reasignar turnos turnos"
 		},
 		env: activeEnv
 	},
