@@ -33,4 +33,8 @@ Viene vacío el toml pero utilizar una versión no subida a github
 5. Habilitar Netlify Identity y configurarlo para que sea invite only
 6. Invitar a alguien
 
+## Cambiar de staging a producción y viceversa
+1. Cambiar la variable GATSBY_ZAURU_PREFIX
+2. Volver a hacer deploy en Netlify para que lo agarre
+
 Licencia MIT
