@@ -1,23 +1,4 @@
-// const headers = {
-// 	Accept: 'application/json',
-// 	'Content-type': 'application/json',
-// 	'X-User-Email': 'api@hermandadtrespotencias.com',
-// 	'X-User-Token': '9exrqgKSyK4y8PHDrQRD'
-// };
-// const PREFIX_ENDPOINT = `https://gatsby-turnos.netlify.com/.netlify/functions/`
 
-// const ENDPOINTS = {
-// 	tiposDeTurno: `${PREFIX_ENDPOINT}tiposDeTurno`,
-// 	turnosNoVendidos: `${PREFIX_ENDPOINT}turnosNoVendidos`,
-// 	turnosVendidos: `${PREFIX_ENDPOINT}turnosVendidos`,
-
-// }
-
-// const URLS = {
-// 	tiposDeTurno: `https://zauru.herokuapp.com/settings/agencies.json`,
-// 	turnosNoVendidos: `https://zauru.herokuapp.com/inventories/stocks.json?warehouse=2505`,
-// 	turnosVendidos: `https://zauru.herokuapp.com/sales/reports/sold_active_items_with_clients.json?point_of_sale_id=2505`
-// };
 
 const URL_PREFIX = process.env.GATSBY_NFUNC_URL_PREFIX;
 const ZAURU_PREFIX = process.env.GATSBY_ZAURU_PREFIX;
